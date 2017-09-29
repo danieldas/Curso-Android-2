@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">MaterialCollapsing</string>
+    <string name="texto1">Los mensajes y llamadas en este chat están protegidos con cifrado de extremo a extremo.\nToca para verificar</string>
+</resources>
