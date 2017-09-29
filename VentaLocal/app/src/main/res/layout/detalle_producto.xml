@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    card_view:cardElevation="10dp"
+    card_view:cardCornerRadius="10dp"
+    android:padding="7dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/etDescripcionD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese descripcion"
+            android:inputType="text"
+            android:maxLength="50"
+            android:layout_marginTop="7dp"/>
+
+        <EditText
+            android:id="@+id/etPrecioD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese precio"
+            android:inputType="numberDecimal"
+            android:maxLength="5"
+            android:layout_marginTop="7dp"/>
+
+        <EditText
+            android:id="@+id/etCantidadD"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ingrese cantidad"
+            android:inputType="number"
+            android:maxLength="2"
+            android:layout_marginTop="7dp"/>
+
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spTipoD"
+            android:entries="@array/tipo_arrays"
+            android:layout_marginTop="7dp">
+
+        </Spinner>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginTop="5dp"
+            android:background="@color/colorPlomo">
+
+        </View>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp"
+            android:paddingBottom="10dp"
+            android:paddingLeft="10dp"
+            >
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Actualizar"
+                android:id="@+id/btnActualizarProducto"
+                android:background="@color/colorPrimaryDark"
+                android:textColor="@color/colorBlanco"
+                />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dar de baja"
+                android:background="@color/colorPlomo"
+                android:textColor="@color/colorNegro"
+                android:id="@+id/btnBajaProducto"
+                android:layout_marginLeft="10dp"
+                />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

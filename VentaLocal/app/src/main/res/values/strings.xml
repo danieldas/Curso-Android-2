@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Venta Local</string>
+    <string-array name="tipo_arrays">
+        <item>Ropa</item>
+        <item>Celular</item>
+    </string-array>
+</resources>
