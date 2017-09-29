@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">ShakeAcelerometro</string>
+    <string name="shake">Hola, sacude el móvil</string>
+</resources>
