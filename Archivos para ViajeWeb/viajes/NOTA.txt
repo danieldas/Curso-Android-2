@@ -1,0 +1,2 @@
+Debes copiar esta carpeta en el directorio de tu servidor y cambia los parametros del archivo conexion
+Ejemplo: si utilzas Xampp debes copiar en c:/xampp/htdocs/
